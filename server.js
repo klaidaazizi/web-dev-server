@@ -8,6 +8,7 @@ const app = express();
 app.use(cors);
 app.use(express.json());
 
+helloController(app);
 userController(app);
 tuitsController(app);
 app.listen(4000);
