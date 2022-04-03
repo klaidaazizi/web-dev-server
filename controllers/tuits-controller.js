@@ -18,7 +18,6 @@ const createTuit = (req, res) => {
 }
 const findAllTuits = (req,res) => {
     res.json(tuits);
-    res.sendStatus(200);
 }
 
 const updateTuit = (req, res) => {
